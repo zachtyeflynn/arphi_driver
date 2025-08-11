@@ -1,0 +1,8 @@
+source;share/arphi_description/hook/cmake_prefix_path.ps1
+source;share/arphi_description/hook/cmake_prefix_path.dsv
+source;share/arphi_description/hook/cmake_prefix_path.sh
+source;share/arphi_description/local_setup.bash
+source;share/arphi_description/local_setup.dsv
+source;share/arphi_description/local_setup.ps1
+source;share/arphi_description/local_setup.sh
+source;share/arphi_description/local_setup.zsh

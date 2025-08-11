@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="$(arg ar_model)">
+  <xacro:include filename="$(find arphi_description)/urdf/primary.urdf.xacro"/>
+  <xacro:include filename="$(find arphi_description)/urdf/arphi.ros2_control.xacro"/>
+
+  <link name="world"/>
+  <xacro:ar_robot
+    parent="world"
+    robot_parameters_file="$(find arphi_moveit)/config/config.yaml"
+    >
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:ar_robot>
+
+  <xacro:ar_ros2_control
+    plugin_name="mock_components/GenericSystem"
+    serial_port="/dev/ttyACM0"
+    calibrate="False"
+    robot_parameters_file="$(find arphi_moveit)/config/config.yaml"
+    joint_offset_parameters_file="$(find arphi_driver)/config/joint_offsets.yaml"
+    driver_parameters_file="$(find arphi_driver)/config/driver.yaml"
+  />
+
+</robot>

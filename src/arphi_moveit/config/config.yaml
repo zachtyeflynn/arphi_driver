@@ -1,0 +1,9 @@
+j1_limit_min: !degrees -170
+j2_limit_min: !degrees -42
+j3_limit_min: !degrees -89
+
+j1_limit_max: !degrees 170
+j2_limit_max: !degrees 90
+j3_limit_max: !degrees 52
+
+l6_length: 0.041

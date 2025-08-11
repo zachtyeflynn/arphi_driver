@@ -1,0 +1,2 @@
+source;share/arphi_moveit/environment/ament_prefix_path.sh
+source;share/arphi_moveit/environment/path.sh

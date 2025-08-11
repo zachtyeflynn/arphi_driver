@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1c47be44fa1ac5f01a98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "arphi_interfaces__py",
+					"jsonFile" : "directory-arphi_interfaces__py-f479290b437667957ab0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zach/arphi_driver/build/arphi_interfaces/arphi_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "arphi_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arphi_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arphi_interfaces_egg-02f487cfe5c0014d0966.json",
+					"name" : "ament_cmake_python_build_arphi_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arphi_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arphi_interfaces-ad10b451deec9588de94.json",
+					"name" : "ament_cmake_python_copy_arphi_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces-58c6b45572db5acf92cf.json",
+					"name" : "arphi_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__cpp-979d9e150ad72b5ee1c4.json",
+					"name" : "arphi_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "arphi_interfaces__py::@91305f5886b9e27ade09",
+					"jsonFile" : "target-arphi_interfaces__py-57f1b3cd44d4417ada18.json",
+					"name" : "arphi_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_generator_c-2754692d20b9f7615084.json",
+					"name" : "arphi_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_generator_py-f4205499b222b72f85fc.json",
+					"name" : "arphi_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_generator_type_description-3bb5bf3bcaee3df587b1.json",
+					"name" : "arphi_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_typesupport_c-745414ff1134e530b14f.json",
+					"name" : "arphi_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_typesupport_cpp-af249d3f7ea9cf7c4714.json",
+					"name" : "arphi_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_typesupport_fastrtps_c-f36a37d0d80ebf7066b6.json",
+					"name" : "arphi_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_typesupport_fastrtps_cpp-b7483d0787eaf164600c.json",
+					"name" : "arphi_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_typesupport_introspection_c-3aa2f972f2b44ef9a12d.json",
+					"name" : "arphi_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces__rosidl_typesupport_introspection_cpp-186d649160d4a002cf31.json",
+					"name" : "arphi_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces_s__rosidl_typesupport_c-3a54e303a8c63e84137a.json",
+					"name" : "arphi_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces_s__rosidl_typesupport_fastrtps_c-d96e62e2fd55443c2247.json",
+					"name" : "arphi_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces_s__rosidl_typesupport_introspection_c-6b945fe9fe3de634db56.json",
+					"name" : "arphi_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arphi_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arphi_interfaces_uninstall-d6976538bcb2ab0bbdc9.json",
+					"name" : "arphi_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b686f53cd84325e3c467.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zach/arphi_driver/build/arphi_interfaces",
+		"source" : "/home/zach/arphi_driver/src/arphi_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

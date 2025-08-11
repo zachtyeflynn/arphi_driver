@@ -1,0 +1,226 @@
+[0.212s] Invoking command in '/home/zach/arphi_driver/build/arphi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zach/arphi_driver/src/arphi_interfaces -DCMAKE_INSTALL_PREFIX=/home/zach/arphi_driver/install/arphi_interfaces
+[0.268s] -- The C compiler identification is GNU 13.3.0
+[0.321s] -- The CXX compiler identification is GNU 13.3.0
+[0.340s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.438s] -- Detecting C compile features
+[0.438s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.552s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.556s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.680s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.810s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.927s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.410s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.130s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.233s] -- Found PythonExtra: /usr/bin/python3  
+[2.534s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.562s] -- Configuring done (2.3s)
+[2.580s] -- Generating done (0.0s)
+[2.586s] -- Build files have been written to: /home/zach/arphi_driver/build/arphi_interfaces
+[2.593s] Invoked command in '/home/zach/arphi_driver/build/arphi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zach/arphi_driver/src/arphi_interfaces -DCMAKE_INSTALL_PREFIX=/home/zach/arphi_driver/install/arphi_interfaces
+[2.594s] Invoking command in '/home/zach/arphi_driver/build/arphi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zach/arphi_driver/build/arphi_interfaces -- -j16 -l16
+[2.644s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.650s] [  2%] Built target ament_cmake_python_copy_arphi_interfaces
+[2.759s] [  2%] Built target arphi_interfaces__rosidl_generator_type_description
+[2.770s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.778s] running egg_info
+[2.779s] creating arphi_interfaces.egg-info
+[2.779s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.789s] writing arphi_interfaces.egg-info/PKG-INFO
+[2.789s] writing dependency_links to arphi_interfaces.egg-info/dependency_links.txt
+[2.789s] writing top-level names to arphi_interfaces.egg-info/top_level.txt
+[2.789s] writing manifest file 'arphi_interfaces.egg-info/SOURCES.txt'
+[2.821s] reading manifest file 'arphi_interfaces.egg-info/SOURCES.txt'
+[2.821s] writing manifest file 'arphi_interfaces.egg-info/SOURCES.txt'
+[2.858s] [  8%] Built target ament_cmake_python_build_arphi_interfaces_egg
+[2.946s] [  8%] Built target arphi_interfaces__cpp
+[2.956s] [ 11%] [32mBuilding C object CMakeFiles/arphi_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arphi_interfaces/msg/detail/stepper_commands__description.c.o[0m
+[2.956s] [ 14%] [32mBuilding C object CMakeFiles/arphi_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arphi_interfaces/msg/detail/stepper_commands__functions.c.o[0m
+[2.956s] [ 17%] [32mBuilding C object CMakeFiles/arphi_interfaces__rosidl_generator_c.dir/rosidl_generator_c/arphi_interfaces/msg/detail/stepper_commands__type_support.c.o[0m
+[3.012s] [ 20%] [32m[1mLinking C shared library libarphi_interfaces__rosidl_generator_c.so[0m
+[3.048s] [ 20%] Built target arphi_interfaces__rosidl_generator_c
+[3.058s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.058s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.058s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.058s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.058s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.058s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.220s] [ 44%] [32mBuilding CXX object CMakeFiles/arphi_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/arphi_interfaces/msg/stepper_commands__type_support.cpp.o[0m
+[3.221s] [ 44%] [32mBuilding CXX object CMakeFiles/arphi_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arphi_interfaces/msg/stepper_commands__type_support.cpp.o[0m
+[3.233s] [ 50%] [32mBuilding CXX object CMakeFiles/arphi_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arphi_interfaces/msg/detail/stepper_commands__type_support.cpp.o[0m
+[3.233s] [ 50%] [32mBuilding C object CMakeFiles/arphi_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arphi_interfaces/msg/detail/stepper_commands__type_support.c.o[0m
+[3.252s] [ 55%] [32mBuilding CXX object CMakeFiles/arphi_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arphi_interfaces/msg/detail/dds_fastrtps/stepper_commands__type_support.cpp.o[0m
+[3.252s] [ 55%] [32mBuilding CXX object CMakeFiles/arphi_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arphi_interfaces/msg/detail/stepper_commands__type_support_c.cpp.o[0m
+[3.265s] [ 58%] [32m[1mLinking CXX shared library libarphi_interfaces__rosidl_typesupport_c.so[0m
+[3.271s] [ 61%] [32m[1mLinking C shared library libarphi_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.321s] [ 61%] Built target arphi_interfaces__rosidl_typesupport_c
+[3.324s] [ 61%] Built target arphi_interfaces__rosidl_typesupport_introspection_c
+[3.467s] [ 64%] [32m[1mLinking CXX shared library libarphi_interfaces__rosidl_typesupport_cpp.so[0m
+[3.491s] [ 67%] [32m[1mLinking CXX shared library libarphi_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.504s] [ 67%] Built target arphi_interfaces__rosidl_typesupport_cpp
+[3.531s] [ 67%] Built target arphi_interfaces__rosidl_typesupport_introspection_cpp
+[3.575s] [ 70%] [32m[1mLinking CXX shared library libarphi_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.583s] [ 73%] [32m[1mLinking CXX shared library libarphi_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.617s] [ 73%] Built target arphi_interfaces__rosidl_typesupport_fastrtps_c
+[3.621s] [ 73%] Built target arphi_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.642s] [ 73%] Built target arphi_interfaces
+[3.660s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.824s] [ 76%] Built target arphi_interfaces__py
+[3.845s] [ 79%] [32mBuilding C object CMakeFiles/arphi_interfaces__rosidl_generator_py.dir/rosidl_generator_py/arphi_interfaces/msg/_stepper_commands_s.c.o[0m
+[3.947s] [ 82%] [32m[1mLinking C shared library libarphi_interfaces__rosidl_generator_py.so[0m
+[3.989s] [ 82%] Built target arphi_interfaces__rosidl_generator_py
+[4.014s] [ 88%] [32mBuilding C object CMakeFiles/arphi_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/arphi_interfaces/_arphi_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.014s] [ 88%] [32mBuilding C object CMakeFiles/arphi_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/arphi_interfaces/_arphi_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.014s] [ 91%] [32mBuilding C object CMakeFiles/arphi_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/arphi_interfaces/_arphi_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.091s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[4.091s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_c.so[0m
+[4.093s] [100%] [32m[1mLinking C shared module rosidl_generator_py/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.123s] [100%] Built target arphi_interfaces_s__rosidl_typesupport_introspection_c
+[4.123s] [100%] Built target arphi_interfaces_s__rosidl_typesupport_c
+[4.123s] [100%] Built target arphi_interfaces_s__rosidl_typesupport_fastrtps_c
+[4.134s] Invoked command in '/home/zach/arphi_driver/build/arphi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zach/arphi_driver/build/arphi_interfaces -- -j16 -l16
+[4.135s] Invoking command in '/home/zach/arphi_driver/build/arphi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zach/arphi_driver/build/arphi_interfaces
+[4.143s] -- Install configuration: ""
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/ament_index/resource_index/rosidl_interfaces/arphi_interfaces
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/msg/StepperCommands.json
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/stepper_commands.h
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__type_support.h
+[4.144s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__description.c
+[4.145s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__functions.h
+[4.145s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__struct.h
+[4.145s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__type_support.c
+[4.145s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__functions.c
+[4.145s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/library_path.sh
+[4.145s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/library_path.dsv
+[4.145s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_generator_c.so
+[4.145s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_generator_c.so" to ""
+[4.145s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces
+[4.145s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg
+[4.146s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.146s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail
+[4.146s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__rosidl_typesupport_fastrtps_c.h
+[4.146s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.146s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.146s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces
+[4.146s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg
+[4.146s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.146s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail
+[4.146s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__rosidl_typesupport_introspection_c.h
+[4.146s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__type_support.c
+[4.146s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_introspection_c.so
+[4.147s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.147s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_c.so
+[4.147s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_c.so" to ""
+[4.147s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces
+[4.147s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg
+[4.147s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.147s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/stepper_commands.hpp
+[4.147s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail
+[4.147s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__builder.hpp
+[4.147s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__type_support.hpp
+[4.147s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__struct.hpp
+[4.147s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__traits.hpp
+[4.148s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces
+[4.148s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg
+[4.148s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.148s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail
+[4.148s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/dds_fastrtps
+[4.148s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[4.148s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.148s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.148s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces
+[4.148s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg
+[4.148s] -- Up-to-date: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail
+[4.148s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__type_support.cpp
+[4.148s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/include/arphi_interfaces/arphi_interfaces/msg/detail/stepper_commands__rosidl_typesupport_introspection_cpp.hpp
+[4.149s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.149s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.149s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_cpp.so
+[4.149s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.149s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/pythonpath.sh
+[4.149s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/pythonpath.dsv
+[4.149s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces-1.0.0-py3.12.egg-info
+[4.149s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces-1.0.0-py3.12.egg-info/top_level.txt
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces-1.0.0-py3.12.egg-info/SOURCES.txt
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces-1.0.0-py3.12.egg-info/dependency_links.txt
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces-1.0.0-py3.12.egg-info/PKG-INFO
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/_arphi_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/_arphi_interfaces_s.ep.rosidl_typesupport_c.c
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/msg
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/msg/_stepper_commands.py
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/msg/__init__.py
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/msg/_stepper_commands_s.c
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_c.so
+[4.150s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/__init__.py
+[4.151s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.151s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.151s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/_arphi_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.179s] Listing '/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces'...
+[4.179s] Compiling '/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/__init__.py'...
+[4.179s] Listing '/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/msg'...
+[4.179s] Compiling '/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/msg/__init__.py'...
+[4.179s] Compiling '/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/msg/_stepper_commands.py'...
+[4.184s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.185s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.185s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.185s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[4.185s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_c.so
+[4.186s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/python3.12/site-packages/arphi_interfaces/arphi_interfaces_s__rosidl_typesupport_c.so" to ""
+[4.186s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_generator_py.so
+[4.186s] -- Set non-toolchain portion of runtime path of "/home/zach/arphi_driver/install/arphi_interfaces/lib/libarphi_interfaces__rosidl_generator_py.so" to ""
+[4.186s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/msg/StepperCommands.idl
+[4.186s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/msg/StepperCommands.msg
+[4.186s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/ament_index/resource_index/package_run_dependencies/arphi_interfaces
+[4.186s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/ament_index/resource_index/parent_prefix_path/arphi_interfaces
+[4.186s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/ament_prefix_path.sh
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/ament_prefix_path.dsv
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/path.sh
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/environment/path.dsv
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/local_setup.bash
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/local_setup.sh
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/local_setup.zsh
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/local_setup.dsv
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/package.dsv
+[4.187s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/ament_index/resource_index/packages/arphi_interfaces
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_generator_cExport.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_cExport.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.188s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_generator_cppExport.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_cppExport.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_generator_pyExport.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/export_arphi_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.189s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfacesConfig.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/cmake/arphi_interfacesConfig-version.cmake
+[4.190s] -- Installing: /home/zach/arphi_driver/install/arphi_interfaces/share/arphi_interfaces/package.xml
+[4.193s] Invoked command in '/home/zach/arphi_driver/build/arphi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zach/arphi_driver/build/arphi_interfaces

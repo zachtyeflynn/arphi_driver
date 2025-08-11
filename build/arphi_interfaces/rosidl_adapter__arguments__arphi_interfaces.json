@@ -1,0 +1,6 @@
+{
+  "package_name": "arphi_interfaces",
+  "non_idl_tuples": [
+    "/home/zach/arphi_driver/src/arphi_interfaces:msg/StepperCommands.msg"
+  ]
+}

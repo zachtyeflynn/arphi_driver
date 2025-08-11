@@ -1,0 +1,53 @@
+[0.222s] Invoking command in '/home/zach/arphi_driver/build/arphi_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zach/arphi_driver/src/arphi_moveit -DCMAKE_INSTALL_PREFIX=/home/zach/arphi_driver/install/arphi_moveit
+[0.277s] -- The C compiler identification is GNU 13.3.0
+[0.329s] -- The CXX compiler identification is GNU 13.3.0
+[0.346s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.441s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.441s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.552s] -- Detecting CXX compiler ABI info - done
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.559s] -- Detecting CXX compile features
+[0.559s] -- Detecting CXX compile features - done
+[0.563s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.687s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.883s] -- Configuring done (0.7s)
+[0.887s] -- Generating done (0.0s)
+[0.888s] -- Build files have been written to: /home/zach/arphi_driver/build/arphi_moveit
+[0.893s] Invoked command in '/home/zach/arphi_driver/build/arphi_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zach/arphi_driver/src/arphi_moveit -DCMAKE_INSTALL_PREFIX=/home/zach/arphi_driver/install/arphi_moveit
+[0.894s] Invoking command in '/home/zach/arphi_driver/build/arphi_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zach/arphi_driver/build/arphi_moveit -- -j16 -l16
+[0.943s] Invoked command in '/home/zach/arphi_driver/build/arphi_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zach/arphi_driver/build/arphi_moveit -- -j16 -l16
+[0.944s] Invoking command in '/home/zach/arphi_driver/build/arphi_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zach/arphi_driver/build/arphi_moveit
+[0.951s] -- Install configuration: ""
+[0.951s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config/joint_limits.yaml
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config/kinematics.yaml
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config/controllers.yaml
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config/servo.yaml
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config/pilz_planning.yaml
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config/ompl_planning.yaml
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/config/config.yaml
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/launch
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/launch/moveit.launch.py
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/rviz
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/rviz/moveit.rviz
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/srdf
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/srdf/arphi.srdf.xacro
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/ament_index/resource_index/package_run_dependencies/arphi_moveit
+[0.952s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/ament_index/resource_index/parent_prefix_path/arphi_moveit
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/environment/ament_prefix_path.sh
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/environment/ament_prefix_path.dsv
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/environment/path.sh
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/environment/path.dsv
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/local_setup.bash
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/local_setup.sh
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/local_setup.zsh
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/local_setup.dsv
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/package.dsv
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/ament_index/resource_index/packages/arphi_moveit
+[0.953s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/cmake/arphi_moveitConfig.cmake
+[0.954s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/cmake/arphi_moveitConfig-version.cmake
+[0.954s] -- Installing: /home/zach/arphi_driver/install/arphi_moveit/share/arphi_moveit/package.xml
+[0.955s] Invoked command in '/home/zach/arphi_driver/build/arphi_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zach/arphi_driver/build/arphi_moveit

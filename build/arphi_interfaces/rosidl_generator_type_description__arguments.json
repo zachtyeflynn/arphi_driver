@@ -1,0 +1,7 @@
+{
+  "package_name": "arphi_interfaces",
+  "output_dir": "/home/zach/arphi_driver/build/arphi_interfaces/rosidl_generator_type_description/arphi_interfaces",
+  "idl_tuples": [
+    "/home/zach/arphi_driver/build/arphi_interfaces/rosidl_adapter/arphi_interfaces:msg/StepperCommands.idl"
+  ]
+}

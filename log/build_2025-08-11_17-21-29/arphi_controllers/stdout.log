@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/arphi_controllers/arphi_controllers.egg-info/PKG-INFO
+writing dependency_links to ../../build/arphi_controllers/arphi_controllers.egg-info/dependency_links.txt
+writing entry points to ../../build/arphi_controllers/arphi_controllers.egg-info/entry_points.txt
+writing requirements to ../../build/arphi_controllers/arphi_controllers.egg-info/requires.txt
+writing top-level names to ../../build/arphi_controllers/arphi_controllers.egg-info/top_level.txt
+reading manifest file '../../build/arphi_controllers/arphi_controllers.egg-info/SOURCES.txt'
+writing manifest file '../../build/arphi_controllers/arphi_controllers.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+removing '/home/zach/arphi_driver/install/arphi_controllers/lib/python3.12/site-packages/arphi_controllers-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/arphi_controllers/arphi_controllers.egg-info to /home/zach/arphi_driver/install/arphi_controllers/lib/python3.12/site-packages/arphi_controllers-1.0.0-py3.12.egg-info
+running install_scripts
+Installing arphi_controller script to /home/zach/arphi_driver/install/arphi_controllers/lib/arphi_controllers
+Installing enclosure_interface script to /home/zach/arphi_driver/install/arphi_controllers/lib/arphi_controllers
+writing list of installed files to '/home/zach/arphi_driver/build/arphi_controllers/install.log'

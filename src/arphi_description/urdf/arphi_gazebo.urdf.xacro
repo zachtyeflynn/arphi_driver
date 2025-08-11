@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="arphi_robot">
+
+  <xacro:include filename="$(find arphi_description)/urdf/arphi.urdf.xacro" />
+  <xacro:include filename="$(find arphi_description)/urdf/arphi.ros2_control.xacro" />
+
+
+  <gazebo reference="world" />
+  <gazebo>
+    <plugin filename="libgz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find arphi_description)/config/controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

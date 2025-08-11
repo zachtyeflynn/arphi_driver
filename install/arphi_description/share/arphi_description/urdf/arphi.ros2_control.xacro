@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arphi_robot">
+
+    <ros2_control name="GazeboSystem" type="system">
+        <hardware>
+            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </hardware>
+
+        <joint name="joint_1">
+            <command_interface name="position">
+                <param name="min">-2.967</param>
+                <param name="max">2.967</param>
+            </command_interface>
+            <command_interface name="velocity">
+                <param name="min">-1.0472</param>
+                <param name="max">1.0472</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="joint_2">
+            <command_interface name="position">
+                <param name="min">-0.733</param>
+                <param name="max">1.5708</param>
+            </command_interface>
+            <command_interface name="velocity">
+                <param name="min">-1.0472</param>
+                <param name="max">1.0472</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+        <joint name="joint_3">
+            <command_interface name="position">
+                <param name="min">-1.5533</param>
+                <param name="max">0.9076</param>
+            </command_interface>
+            <command_interface name="velocity">
+                <param name="min">-1.0472</param>
+                <param name="max">1.0472</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        </joint>
+
+    </ros2_control>
+
+</robot>

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "arphi_interfaces__py",
+		"source" : "/home/zach/arphi_driver/build/arphi_interfaces/arphi_interfaces__py"
+	}
+}
