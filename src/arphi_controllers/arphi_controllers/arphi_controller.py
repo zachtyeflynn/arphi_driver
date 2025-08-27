@@ -1,10 +1,12 @@
 import rclpy
+#import time
 from rclpy.node import Node
+from arphi_interfaces.msg import JointCommands
 from arphi_interfaces.msg import StepperCommands
-from sensor_msgs.msg import JointState
-from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
+#from sensor_msgs.msg import JointState
+#from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 import pygame
-import numpy as np
+#import numpy as np
 
 class JointPublisher(Node):
     def __init__(self):
@@ -15,15 +17,15 @@ class JointPublisher(Node):
         self.joystick = pygame.joystick.Joystick(0)
         self.joystick.init()
 
-        self.create_subscription(JointState, "joint_states", self.update_joint_states, 10)
-        self.AR4_publisher_ = self.create_publisher(JointTrajectory, "joint_trajectory_controller/joint_trajectory", 10)
+        #self.create_subscription(JointState, "joint_states", self.update_joint_states, 10)
+        self.AR4_publisher_ = self.create_publisher(JointCommands, "joint_commands", 10)
         self.arphi_publisher_ = self.create_publisher(StepperCommands, "stepper_commands", 10)
 
-        self.create_timer(1/30, self.mode_update)
+        self.create_timer(1/60, self.mode_update)
 
         self.create_timer(1/60, self.publish_commands)
 
-        self.joint_states_position = np.zeros(3)
+        #self.joint_states_position = np.zeros(3)
 
         self.AR4_controller_modes = ["all_joints", "joint_1", "joint_2", "joint_3"]
         self.AR4_mode_dictionary = {"all_joints": [1, 1, 1], "joint_1": [1, 0, 0], "joint_2": [0, 1, 0], "joint_3": [0, 0, 1]}
@@ -40,11 +42,15 @@ class JointPublisher(Node):
         self.change_speed = 0.02
         self.min_speed = 0.01
         self.max_speed = 0.05
-        self.sweep_speed = 0.001
+        self.sweep_speed = 0.0001
 
-    def update_joint_states(self, msg: JointState):
+    def rumble_controller(self):
 
-        self.joint_states_position = np.array(msg.position[:3])
+        self.joystick.rumble(low_frequency=0.2, high_frequency=1, duration=200)
+
+    #def update_joint_states(self, msg: JointState):
+
+        #self.joint_states_position = np.array(msg.position[:3])
 
     def mode_update(self):
 
@@ -56,7 +62,7 @@ class JointPublisher(Node):
 
         if switch_robot_pressed and not getattr(self, "_last_robot", False):
             self.AR4_control = (self.AR4_control + 1) % 2
-            self.joystick.rumble(1, 1, 200)
+            self.rumble_controller()
             print("Controlling AR4: ", self.AR4_control == 1)
 
         if switch_mode_pressed and not getattr(self, "_last_mode", False):
@@ -96,18 +102,19 @@ class JointPublisher(Node):
             AR4_actuated_joints = self.AR4_mode_dictionary[AR4_mode]
 
             if AR4_actuated_joints[0] == 1:
-                dj1 = self.change_speed * self.joystick.get_axis(0)
+                dj1 = int(round(5 * self.joystick.get_axis(0), 0))
             else:
                 dj1 = 0
             if AR4_actuated_joints[1] == 1:
-                dj2 = self.change_speed * self.joystick.get_axis(1)
+                dj2 = -int(round(5 * self.joystick.get_axis(1), 0))
             else:
                 dj2 = 0
             if AR4_actuated_joints[2] == 1:
-                dj3 = self.change_speed * self.joystick.get_axis(4)
+                dj3 = -int(round(5 * self.joystick.get_axis(4), 0))
             else:
                 dj3 = 0
 
+            """
             new_positions = self.joint_states_position + np.array([dj1, dj2, dj3])
 
             trajectory = JointTrajectory()
@@ -128,6 +135,14 @@ class JointPublisher(Node):
             trajectory.points = [point1, point2]
 
             self.AR4_publisher_.publish(trajectory)
+            """
+
+            msg = JointCommands()
+            msg.dj1 = dj1
+            msg.dj2 = dj2
+            msg.dj3 = dj3
+
+            self.AR4_publisher_.publish(msg)
         
         elif self.AR4_control == 0:
 

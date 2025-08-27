@@ -16,7 +16,8 @@ setup(
     entry_points={
         'console_scripts': [
             "arphi_controller = arphi_controllers.arphi_controller:main",
-            "enclosure_interface = arphi_controllers.enclosure_interface:main"
+            "enclosure_interface = arphi_controllers.enclosure_interface:main",
+            "AR4_interface = arphi_controllers.AR4_interface:main"
         ],
     },
 )

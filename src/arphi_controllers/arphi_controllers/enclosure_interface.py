@@ -35,6 +35,7 @@ class EnclosureInterface(Node):
         self.s3 += self.ds3
 
         string = f"{self.ds1},{self.ds2},{self.ds3}\n"
+        print(string)
         self.ser_.write(string.encode('utf-8'))
 
         self.ds1 = 0
