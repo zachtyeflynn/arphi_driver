@@ -1,1 +1,0 @@
-[0.237s] Invoking command in '/home/zach/arphi_driver/build/arphi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zach/arphi_driver/install/arphi_controllers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zach/arphi_driver/src/arphi_interfaces -DCMAKE_INSTALL_PREFIX=/home/zach/arphi_driver/install/arphi_interfaces
